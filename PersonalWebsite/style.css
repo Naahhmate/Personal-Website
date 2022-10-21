@@ -1,0 +1,73 @@
+body {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.Heading1 {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 35px;
+  text-decoration: uppercase;
+  color: #80D0C7;
+  margin-bottom: 0;
+}
+.Extra-Text {
+  font-size: 20px;
+  color: white;
+  opacity: 0.2;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 8px;
+}
+.Notes {
+  color: #ff8742;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  margin-top: 100px;
+  width: 250px;
+  margin-left: 8px;
+  height: 150px;
+  border: none;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.Notes:hover {
+  width: 260px;
+  height: 160px;
+  color: #ff7322;
+  transition: all 0.15s;
+}
+.Notes:active {
+  width: 265px;
+  height: 165px;
+}
+.Paint {
+  color: #2ebdac;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  margin-top: 100px;
+  width: 250px;
+  margin-left: 8px;
+  height: 150px;
+  border: none;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.Paint:hover {
+  width: 260px;
+  height: 160px;
+  color: #28c9b6;
+  transition: all 0.15s;
+}
+.Paint:active {
+  width: 265px;
+  height: 165px;
+}
